@@ -4,7 +4,7 @@ import { getBlogPosts } from '@/lib/posts';
 import Link from 'next/link';
 
 export default async function Home() {
-  const recentPosts = await getBlogPosts(3);
+  const recentPosts = getBlogPosts(3);
 
   return (
     <div className="container mx-auto px-4 py-8">
