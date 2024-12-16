@@ -6,9 +6,9 @@ export function GET(request: Request) {
 
   return new ImageResponse(
     (
-      <div tw="flex flex-col w-full h-full items-center justify-center bg-white">
-        <div tw="flex flex-col md:flex-row w-full py-12 px-4 md:items-center justify-between p-8">
-          <h2 tw="flex flex-col text-4xl font-bold tracking-tight text-left">
+      <div className="flex h-full w-full flex-col items-center justify-center bg-white">
+        <div className="flex w-full flex-col justify-between p-8 px-4 py-12 md:flex-row md:items-center">
+          <h2 className="flex flex-col text-left text-4xl font-bold tracking-tight">
             {title}
           </h2>
         </div>

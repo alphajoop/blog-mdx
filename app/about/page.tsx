@@ -3,7 +3,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 
 export default function AboutPage() {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <section className="container mx-auto px-4 py-8">
       <h1 className="mb-8 text-center text-2xl font-bold md:text-3xl lg:text-4xl">
         À Propos de Moi
       </h1>
@@ -71,6 +71,6 @@ export default function AboutPage() {
           </CardContent>
         </Card>
       </div>
-    </div>
+    </section>
   );
 }

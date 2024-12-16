@@ -52,7 +52,7 @@ export default async function ArticleDetailPage({
   const article = getBlogPostBySlug((await params).slug);
 
   return (
-    <div className="container mx-auto max-w-4xl px-4 py-8">
+    <section className="container mx-auto max-w-4xl px-4 py-8">
       <article>
         <h1 className="mb-6 text-2xl font-bold md:text-3xl lg:text-4xl">
           {article.metadata.title}
@@ -79,6 +79,6 @@ export default async function ArticleDetailPage({
           )}
         </div>
       </article>
-    </div>
+    </section>
   );
 }

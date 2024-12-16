@@ -2,7 +2,7 @@ import { Card, CardContent } from '@/components/ui/card';
 
 export default function MentionsLegalesPage() {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <section className="container mx-auto px-4 py-8">
       <h1 className="mb-8 text-center text-2xl font-bold md:text-3xl lg:text-4xl">
         Mentions Légales
       </h1>
@@ -113,6 +113,6 @@ export default function MentionsLegalesPage() {
           </CardContent>
         </Card>
       </div>
-    </div>
+    </section>
   );
 }

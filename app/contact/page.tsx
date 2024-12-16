@@ -43,7 +43,7 @@ export default function ContactPage() {
   }
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <section className="container mx-auto px-4 py-8">
       <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
         <div className="relative aspect-square w-full overflow-hidden rounded-lg md:order-2 md:aspect-[4/3]">
           <Image
@@ -109,6 +109,6 @@ export default function ContactPage() {
           </Form>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
