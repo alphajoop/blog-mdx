@@ -3,7 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import { BlogPost } from '@/types';
 
-const postsDirectory = path.join(process.cwd(), 'posts');
+const postsDirectory = path.join(process.cwd(), 'contents');
 
 // Définissez une interface pour le frontmatter
 interface MDXFrontmatter {
